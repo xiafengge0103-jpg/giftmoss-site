@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 650" role="img" aria-label="Curated Handmade Gifts">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff8ef"/>
+      <stop offset="1" stop-color="#ead8c4"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#b96f4d"/>
+      <stop offset="1" stop-color="#c99a45"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="22" stdDeviation="22" flood-color="#2f261e" flood-opacity=".16"/>
+    </filter>
+  </defs>
+  <rect width="900" height="650" fill="url(#bg)"/>
+  <circle cx="760" cy="120" r="130" fill="#6f8f72" opacity=".14"/>
+  <circle cx="100" cy="560" r="170" fill="#b96f4d" opacity=".12"/>
+  <g filter="url(#shadow)"><ellipse cx="455" cy="505" rx="190" ry="42" fill="#2f261e" opacity=".12"/>
+<path d="M390 205 C360 270 350 390 382 475 C402 530 512 530 532 475 C564 390 552 270 520 205 C500 222 410 222 390 205Z" fill="url(#accent)"/>
+<ellipse cx="455" cy="206" rx="74" ry="32" fill="#fff5e9"/>
+<ellipse cx="455" cy="198" rx="54" ry="18" fill="#8f5137" opacity=".38"/>
+<path d="M405 295 C450 324 493 304 525 274" fill="none" stroke="#fff7ed" stroke-width="15" stroke-linecap="round" opacity=".78"/>
+<path d="M398 382 C448 410 495 386 535 350" fill="none" stroke="#fff7ed" stroke-width="15" stroke-linecap="round" opacity=".78"/>
+<circle cx="355" cy="185" r="26" fill="#6f8f72" opacity=".65"/><circle cx="560" cy="190" r="20" fill="#c99a45" opacity=".65"/></g>
+  <rect x="58" y="50" width="242" height="42" rx="21" fill="#ffffff" opacity=".8"/>
+  <text x="82" y="78" font-family="Arial, sans-serif" font-size="17" font-weight="700" fill="#8f5137">ARTISAN COLLECTION</text>
+  <text x="58" y="560" font-family="Arial, sans-serif" font-size="42" font-weight="800" fill="#2f261e">Curated Handmade Gifts</text>
+  <text x="58" y="602" font-family="Arial, sans-serif" font-size="22" fill="#65758b">Wholesale & private label ready</text>
+</svg>

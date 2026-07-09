@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 650" role="img" aria-label="Woven Baskets">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff8ef"/>
+      <stop offset="1" stop-color="#ead8c4"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#c99a45"/>
+      <stop offset="1" stop-color="#c99a45"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="22" stdDeviation="22" flood-color="#2f261e" flood-opacity=".16"/>
+    </filter>
+  </defs>
+  <rect width="900" height="650" fill="url(#bg)"/>
+  <circle cx="760" cy="120" r="130" fill="#6f8f72" opacity=".14"/>
+  <circle cx="100" cy="560" r="170" fill="#c99a45" opacity=".12"/>
+  <g filter="url(#shadow)"><ellipse cx="455" cy="520" rx="220" ry="42" fill="#2f261e" opacity=".11"/>
+<path d="M285 310 C300 455 350 500 455 500 C560 500 610 455 625 310Z" fill="url(#accent)"/>
+<path d="M330 310 C338 220 572 220 580 310" stroke="#8f5137" stroke-width="32" fill="none" stroke-linecap="round" opacity=".8"/>
+<path d="M310 350 H600M330 410H580M355 465H555" stroke="#fff7ed" stroke-width="13" opacity=".75"/>
+<path d="M365 315 L390 500M455 315 V500M545 315 L520 500" stroke="#fff7ed" stroke-width="12" opacity=".6"/></g>
+  <rect x="58" y="50" width="242" height="42" rx="21" fill="#ffffff" opacity=".8"/>
+  <text x="82" y="78" font-family="Arial, sans-serif" font-size="17" font-weight="700" fill="#8f5137">ARTISAN COLLECTION</text>
+  <text x="58" y="560" font-family="Arial, sans-serif" font-size="42" font-weight="800" fill="#2f261e">Woven Baskets</text>
+  <text x="58" y="602" font-family="Arial, sans-serif" font-size="22" fill="#65758b">Storage, hamper and gift-set use</text>
+</svg>
