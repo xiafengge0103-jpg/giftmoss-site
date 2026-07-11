@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Product Admin | GiftMoss</title>
+  <meta name="robots" content="noindex">
+  <link rel="icon" href="assets/img/logo.svg"><link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header class="navbar"><div class="container nav-inner"><a class="logo" href="index.html"><span class="logo-mark">G</span><span>GiftMoss</span></a><nav class="nav-links"><a href="index.html">Home</a><a href="products.html">Products</a><a href="admin.html">Admin</a></nav><div class="nav-actions"><a class="btn btn-primary" href="index.html">View Site</a></div></div></header>
+
+  <section class="page-hero"><div class="container"><span class="breadcrumb">Home / Admin</span><h1>Product Management</h1><p>Add, edit and manage consumer electronics products. Data is stored in your browser's localStorage.</p></div></section>
+
+  <main class="section">
+    <div class="container admin-panel">
+      <div class="admin-toolbar">
+        <button class="btn btn-primary" onclick="showAddForm()">+ Add Product</button>
+        <button class="btn btn-outline" style="background:#fff" onclick="exportJSON()">Export JSON</button>
+        <button class="btn btn-outline" style="background:#fff" onclick="loadDefaultProducts()">Load Defaults</button>
+        <span id="statusMsg" style="margin-left:12px;color:var(--muted);font-size:13px"></span>
+      </div>
+
+      <!-- Product Form -->
+      <div class="admin-form" id="productForm" style="display:none">
+        <h3 id="formTitle">Add Product</h3>
+        <input type="hidden" id="editId">
+        <label>Product Title (English)</label><input id="title" placeholder="e.g. Wireless Bluetooth Earbuds">
+        <label>Product Title (Chinese)</label><input id="titleZh" placeholder="e.g. 无线蓝牙耳机">
+        <label>Category</label><select id="category"></select>
+        <label>Description</label><textarea id="description" placeholder="Product description for wholesale buyers"></textarea>
+        <label>Tags (comma separated)</label><input id="tags" placeholder="e.g. TWS, ANC, IPX5">
+        <label>Price Range</label><input id="price" placeholder="e.g. $3.50 - $8.00">
+        <label>MOQ</label><input id="moq" placeholder="e.g. 100 pcs">
+        <label>OEM Available?</label><select id="oem"><option value="true">Yes</option><option value="false">No</option></select>
+        <div>
+          <button class="btn btn-primary" onclick="saveProduct()">Save Product</button>
+          <button class="btn btn-outline" style="background:#fff" onclick="hideForm()">Cancel</button>
+        </div>
+      </div>
+
+      <!-- Product Table -->
+      <div id="productList"><p>Loading products...</p></div>
+    </div>
+  </main>
+
+  <footer class="footer"><div class="container copyright"><span>© 2026 GiftMoss Product Admin</span></div></footer>
+  <script>
+    // Product Admin — localStorage based for static sites
+    const STORAGE_KEY = 'giftmoss_products';
+    let products = [];
+    let categories = [];
+
+    async function init() {
+      try {
+        const res = await fetch('data/categories.json');
+        categories = await res.json();
+        const sel = document.getElementById('category');
+        categories.forEach(c => {
+          sel.innerHTML += `<option value="${c.id}">${c.name} (${c.nameZh})</option>`;
+        });
+      } catch(e) { console.error('Failed to load categories:', e); }
+      loadProducts();
+    }
+
+    function loadProducts() {
+      const stored = localStorage.getItem(STORAGE_KEY);
+      if (stored) {
+        products = JSON.parse(stored);
+      } else {
+        // First time: load from products.json
+        fetch('data/products.json').then(r => r.json()).then(data => {
+          products = data;
+          renderTable();
+        });
+      }
+      renderTable();
+    }
+
+    function renderTable() {
+      const container = document.getElementById('productList');
+      if (!products.length) {
+        container.innerHTML = '<p style="text-align:center;padding:30px;color:var(--muted)">No products yet. Click "+ Add Product" to start.</p>';
+        return;
+      }
+      const catMap = {};
+      categories.forEach(c => { catMap[c.id] = c.name; });
+
+      let html = `<table class="admin-table"><thead><tr><th>Title</th><th>Category</th><th>Price</th><th>MOQ</th><th>Featured</th><th>Actions</th></tr></thead><tbody>`;
+      products.forEach((p, idx) => {
+        html += `<tr>
+          <td><strong>${p.title}</strong><br><small style="color:var(--muted)">${p.titleZh || ''}</small></td>
+          <td>${catMap[p.category] || p.category}</td>
+          <td>${p.price || '-'}</td>
+          <td>${p.moq || '-'}</td>
+          <td>${p.featured ? '★' : '☆'}</td>
+          <td class="actions">
+            <button onclick="editProduct(${idx})">Edit</button>
+            <button onclick="toggleFeatured(${idx})">${p.featured ? 'Unfeature' : 'Feature'}</button>
+            <button onclick="deleteProduct(${idx})" style="color:#c0392b">Delete</button>
+          </td></tr>`;
+      });
+      html += '</tbody></table>';
+      container.innerHTML = html;
+    }
+
+    function showAddForm() {
+      document.getElementById('productForm').style.display = 'block';
+      document.getElementById('formTitle').textContent = 'Add Product';
+      document.getElementById('editId').value = '';
+      ['title','titleZh','description','tags','price','moq'].forEach(id => document.getElementById(id).value = '');
+      document.getElementById('oem').value = 'true';
+    }
+
+    function hideForm() {
+      document.getElementById('productForm').style.display = 'none';
+    }
+
+    function editProduct(idx) {
+      const p = products[idx];
+      document.getElementById('productForm').style.display = 'block';
+      document.getElementById('formTitle').textContent = 'Edit Product';
+      document.getElementById('editId').value = idx;
+      document.getElementById('title').value = p.title || '';
+      document.getElementById('titleZh').value = p.titleZh || '';
+      document.getElementById('category').value = p.category || '';
+      document.getElementById('description').value = p.description || '';
+      document.getElementById('tags').value = (p.tags || []).join(', ');
+      document.getElementById('price').value = p.price || '';
+      document.getElementById('moq').value = p.moq || '';
+      document.getElementById('oem').value = p.oem ? 'true' : 'false';
+    }
+
+    function saveProduct() {
+      const product = {
+        id: document.getElementById('editId').value !== '' ? products[document.getElementById('editId').value].id : 'p' + Date.now(),
+        title: document.getElementById('title').value,
+        titleZh: document.getElementById('titleZh').value,
+        category: document.getElementById('category').value,
+        description: document.getElementById('description').value,
+        tags: document.getElementById('tags').value.split(',').map(t => t.trim()).filter(Boolean),
+        price: document.getElementById('price').value,
+        moq: document.getElementById('moq').value,
+        oem: document.getElementById('oem').value === 'true',
+        image: 'assets/img/electronics/' + document.getElementById('category').value + '.svg',
+        featured: false
+      };
+
+      const editId = document.getElementById('editId').value;
+      if (editId !== '') {
+        product.id = products[editId].id;
+        product.featured = products[editId].featured;
+        products[editId] = product;
+        msg('Product updated!');
+      } else {
+        products.push(product);
+        msg('Product added!');
+      }
+
+      persist();
+      hideForm();
+    }
+
+    function toggleFeatured(idx) {
+      products[idx].featured = !products[idx].featured;
+      persist();
+      msg(products[idx].featured ? 'Featured!' : 'Unfeatured.');
+    }
+
+    function deleteProduct(idx) {
+      if (confirm('Delete "' + products[idx].title + '"?')) {
+        products.splice(idx, 1);
+        persist();
+        msg('Product deleted.');
+      }
+    }
+
+    function persist() {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(products));
+      renderTable();
+    }
+
+    function exportJSON() {
+      const json = JSON.stringify(products, null, 2);
+      const blob = new Blob([json], {type: 'application/json'});
+      const a = document.createElement('a');
+      a.href = URL.createObjectURL(blob);
+      a.download = 'products-export.json';
+      a.click();
+      msg('JSON exported! Send this file to update the site.');
+    }
+
+    function loadDefaultProducts() {
+      if (confirm('Load default products from products.json? This will REPLACE your local products.')) {
+        fetch('data/products.json').then(r => r.json()).then(data => {
+          products = data;
+          persist();
+          msg('Defaults loaded!');
+        });
+      }
+    }
+
+    function msg(text) {
+      const el = document.getElementById('statusMsg');
+      el.textContent = text;
+      setTimeout(() => el.textContent = '', 3000);
+    }
+
+    document.addEventListener('DOMContentLoaded', init);
+  </script>
+</body>
+</html>

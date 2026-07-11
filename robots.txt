@@ -1,2 +1,5 @@
 User-agent: *
 Allow: /
+Disallow: /admin.html
+
+Sitemap: https://giftmoss.com/sitemap.xml

@@ -1,0 +1,8 @@
+[
+  { "id": "decor", "name": "Home Decor", "description": "Wooden tabletop decorations, ceramic ornaments and seasonal display items for retail shelves.", "tags": ["Wood", "Ceramic", "Painted"], "icon": "🏠" },
+  { "id": "resin", "name": "Resin Figurines", "description": "Custom animal, holiday and character resin figurines with hand-painted details and custom molds.", "tags": ["OEM", "Hand Painted", "Custom Mold"], "icon": "🎨" },
+  { "id": "candle", "name": "Candle Holders", "description": "Ceramic and metal candle holders for home fragrance brands and seasonal gift sets.", "tags": ["Ceramic", "Metal", "Gift Box"], "icon": "🕯️" },
+  { "id": "basket", "name": "Woven Baskets", "description": "Natural seagrass, rattan and cotton rope storage baskets for home organization and gift hampers.", "tags": ["Seagrass", "Rattan", "Eco"], "icon": "🧺" },
+  { "id": "packaging", "name": "Gift Packaging", "description": "Retail-ready gift boxes with custom logo, hangtag, barcode and premium display options.", "tags": ["Private Label", "Logo", "Barcode"], "icon": "📦" },
+  { "id": "mixed", "name": "Mixed Collections", "description": "Curated seasonal gift collections combining multiple product categories for retail launches.", "tags": ["Seasonal", "Retail", "Custom"], "icon": "🎁" }
+]
