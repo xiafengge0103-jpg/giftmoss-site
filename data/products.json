@@ -1,45 +1,20 @@
 [
   {
-    "id": "p001",
-    "title": "Custom Resin Animal Figurines",
-    "titleZh": "定制树脂动物摆件",
-    "category": "resin-animal",
-    "description": "Hand-painted resin animal figurines for seasonal gifts, home shelves and souvenir collections. Custom mold, color, size and logo available.",
-    "tags": [
-      "OEM",
-      "Hand Painted",
-      "Custom Mold"
-    ],
-    "price": "$0.80 - $5.00",
-    "moq": "200 pcs",
-    "oem": true,
-    "image": "assets/img/resin-figurine.svg",
-    "featured": true,
-    "highlights": [
-      "Fully customizable mold & color",
-      "Hand-painted details",
-      "Gift-ready packaging"
-    ],
-    "images": [
-      "assets/img/resin-figurine.svg"
-    ]
-  },
-  {
-    "id": "p002",
-    "title": "Wooden Tabletop Decor Set",
-    "titleZh": "木质桌面装饰套装",
+    "id": "p008",
+    "title": "Wooden Holiday Ornaments",
+    "titleZh": "木质节日装饰品",
     "category": "decor-wood",
-    "description": "Warm wooden decoration items for farmhouse, Nordic and modern home styles. Available in pine, MDF, with laser engraving or painting.",
+    "description": "Laser-engraved and hand-painted wooden ornaments for Christmas trees, holiday gift tags and seasonal retail displays. Custom shape and design.",
     "tags": [
-      "Pine",
-      "MDF",
-      "Laser Logo"
+      "Laser Cut",
+      "Painted",
+      "Holiday"
     ],
-    "price": "$1.50 - $8.00",
-    "moq": "150 pcs",
+    "price": "$0.60 - $3.00",
+    "moq": "300 pcs",
     "oem": true,
     "image": "assets/img/wood-decor.svg",
-    "featured": true,
+    "featured": false,
     "highlights": [
       "Warm handmade style",
       "Laser engraving available",
@@ -47,81 +22,6 @@
     ],
     "images": [
       "assets/img/wood-decor.svg"
-    ]
-  },
-  {
-    "id": "p004",
-    "title": "Woven Storage Baskets",
-    "titleZh": "编织收纳篮",
-    "category": "boho-basket",
-    "description": "Natural seagrass, cotton rope and water hyacinth storage baskets for home organization, picnic, gift hamper and retail lifestyle display.",
-    "tags": [
-      "Seagrass",
-      "Cotton Rope",
-      "Eco-friendly"
-    ],
-    "price": "$2.00 - $12.00",
-    "moq": "100 pcs",
-    "oem": true,
-    "image": "assets/img/woven-basket.svg",
-    "featured": true,
-    "highlights": [
-      "Natural eco-friendly material",
-      "Handcrafted by artisans",
-      "Versatile home storage"
-    ],
-    "images": [
-      "assets/img/woven-basket.svg"
-    ]
-  },
-  {
-    "id": "p005",
-    "title": "Private Label Gift Boxes",
-    "titleZh": "自有品牌礼品盒",
-    "category": "packaging",
-    "description": "Retail-ready gift packaging with custom logo, insert card, hangtag and barcode. Suitable for holiday, promotional and e-commerce gift projects.",
-    "tags": [
-      "Logo",
-      "Hangtag",
-      "Barcode"
-    ],
-    "price": "$0.50 - $3.00",
-    "moq": "500 pcs",
-    "oem": true,
-    "image": "assets/img/gift-box.svg",
-    "featured": true,
-    "highlights": [
-      "Custom logo printing",
-      "Retail shelf ready",
-      "Barcode & hangtag included"
-    ],
-    "images": [
-      "assets/img/gift-box.svg"
-    ]
-  },
-  {
-    "id": "p007",
-    "title": "Resin Holiday Figurines",
-    "titleZh": "树脂节日摆件",
-    "category": "resin-holiday",
-    "description": "Christmas, Easter, Halloween and seasonal resin figurines with hand-painted details. Custom holiday themes, packaging and private label options.",
-    "tags": [
-      "Seasonal",
-      "Hand Painted",
-      "Gift Ready"
-    ],
-    "price": "$1.00 - $6.00",
-    "moq": "200 pcs",
-    "oem": true,
-    "image": "assets/img/resin-figurine.svg",
-    "featured": false,
-    "highlights": [
-      "Fully customizable mold & color",
-      "Hand-painted details",
-      "Gift-ready packaging"
-    ],
-    "images": [
-      "assets/img/resin-figurine.svg"
     ]
   },
   {
@@ -147,6 +47,31 @@
     ],
     "images": [
       "assets/img/woven-basket.svg"
+    ]
+  },
+  {
+    "id": "p011",
+    "title": "Custom Logo Display Packaging",
+    "titleZh": "定制Logo展示包装",
+    "category": "packaging",
+    "description": "Premium display packaging with custom logo, window cutout, magnetic closure and foam insert. Designed for retail shelf presentation.",
+    "tags": [
+      "Window Box",
+      "Magnetic",
+      "Premium"
+    ],
+    "price": "$1.50 - $5.00",
+    "moq": "300 pcs",
+    "oem": true,
+    "image": "assets/img/gift-box.svg",
+    "featured": false,
+    "highlights": [
+      "Custom logo printing",
+      "Retail shelf ready",
+      "Barcode & hangtag included"
+    ],
+    "images": [
+      "assets/img/gift-box.svg"
     ]
   },
   {
@@ -202,6 +127,36 @@
     ],
     "images": [
       "assets/img/products/crystal-lamp-3.jpg"
+    ]
+  },
+  {
+    "id": "p016",
+    "title": "Handmade Epoxy Resin Serving Tray",
+    "titleZh": "手工环氧树脂托盘",
+    "category": "tray-epoxy",
+    "description": "Artistic modern epoxy resin platter with ocean/geode design. Handmade luxury serving tray for home decor stores, boutique hotels and wedding gift retailers.",
+    "tags": [
+      "Epoxy",
+      "Ocean Design",
+      "Gold Leaf"
+    ],
+    "price": "$7.00 - $20.00",
+    "moq": "10 pcs",
+    "oem": true,
+    "image": "assets/img/products/resin-tray-1.jpg",
+    "featured": false,
+    "supplier": {
+      "name": "N.S OVERSEAS",
+      "rating": "4.6",
+      "url": "https://www.alibaba.com/product-detail/Epoxy-Resin-Platter-Handmade-Resin-Tray_10000043859701.html"
+    },
+    "highlights": [
+      "Handmade epoxy resin",
+      "Luxury gold leaf accents",
+      "Multi-purpose use"
+    ],
+    "images": [
+      "assets/img/products/resin-tray-1.jpg"
     ]
   }
 ]
