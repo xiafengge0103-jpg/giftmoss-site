@@ -3,7 +3,7 @@
     "id": "p001",
     "title": "Custom Resin Animal Figurines",
     "titleZh": "定制树脂动物摆件",
-    "category": "resin-animal",
+    "category": "mixed-resin",
     "description": "Hand-painted resin animal figurines for seasonal gifts, home shelves and souvenir collections. Custom mold, color, size and logo available.",
     "tags": [
       "OEM",
@@ -78,7 +78,7 @@
     "id": "p004",
     "title": "Woven Storage Baskets",
     "titleZh": "编织收纳篮",
-    "category": "boho-basket",
+    "category": "decor-textile",
     "description": "Natural seagrass, cotton rope and water hyacinth storage baskets for home organization, picnic, gift hamper and retail lifestyle display.",
     "tags": [
       "Seagrass",
@@ -153,7 +153,7 @@
     "id": "p007",
     "title": "Resin Holiday Figurines",
     "titleZh": "树脂节日摆件",
-    "category": "resin-holiday",
+    "category": "mixed-resin",
     "description": "Christmas, Easter, Halloween and seasonal resin figurines with hand-painted details. Custom holiday themes, packaging and private label options.",
     "tags": [
       "Seasonal",
@@ -228,7 +228,7 @@
     "id": "p010",
     "title": "Woven Picnic Basket Set",
     "titleZh": "编织野餐篮套装",
-    "category": "boho-basket",
+    "category": "decor-textile",
     "description": "Seagrass and rattan picnic basket sets with lining, cutlery compartments and leather straps. Ideal for gift hamper, outdoor retail and lifestyle brands.",
     "tags": [
       "Rattan",
@@ -393,7 +393,7 @@
     "id": "p016",
     "title": "Handmade Epoxy Resin Serving Tray",
     "titleZh": "手工环氧树脂托盘",
-    "category": "tray-epoxy",
+    "category": "decor-tray",
     "description": "Artistic modern epoxy resin platter with ocean/geode design. Handmade luxury serving tray for home decor stores, boutique hotels and wedding gift retailers.",
     "tags": [
       "Epoxy",
@@ -423,7 +423,7 @@
     "id": "p017",
     "title": "Luxury Epoxy Resin Tray with Brass Handles",
     "titleZh": "黄铜手柄奢华树脂托盘",
-    "category": "tray-luxury",
+    "category": "decor-tray",
     "description": "High-end epoxy resin tray with brass handles and marble effect. Multi-purpose for vanity, coffee table, jewelry display and boutique hotel decor.",
     "tags": [
       "Brass Handle",
@@ -453,7 +453,7 @@
     "id": "p018",
     "title": "Geode Style Decorative Resin Tray",
     "titleZh": "水晶洞风格装饰树脂托盘",
-    "category": "tray-epoxy",
+    "category": "decor-tray",
     "description": "Handmade geode epoxy resin tray with gold leaf accents and crystal-inspired edges. Perfect for luxury gift shops, home decor boutiques and crystal stores.",
     "tags": [
       "Geode",
@@ -483,7 +483,7 @@
     "id": "p019",
     "title": "Boho Pampas Grass Bouquet",
     "titleZh": "波西米亚蒲苇草花束",
-    "category": "flower",
+    "category": "decor-flower",
     "description": "Natural dried pampas grass bouquet with bunny tails — boho chic home decor, wedding centerpiece and vase filler. Long-lasting, zero maintenance.",
     "tags": [
       "Pampas",
@@ -513,7 +513,7 @@
     "id": "p020",
     "title": "Dried Flower Bouquet Mix",
     "titleZh": "混合干花花束",
-    "category": "flower",
+    "category": "decor-flower",
     "description": "Forget-me-not, rose, cotton and reed dried flower bouquet for boho home decor, farmhouse style and wedding table arrangements. Custom color mix available.",
     "tags": [
       "Forget-Me-Not",
@@ -543,7 +543,7 @@
     "id": "p021",
     "title": "Wholesale Mini Pampas Grass Bundles",
     "titleZh": "小束蒲苇草批发",
-    "category": "flower",
+    "category": "decor-flower",
     "description": "Small plume dry pampas grass bundles for budget-friendly boho decor, event styling and DIY craft retailers. Bulk wholesale pricing with custom packaging.",
     "tags": [
       "Mini",
@@ -573,7 +573,7 @@
     "id": "p022",
     "title": "Boho Macrame Wall Hanging",
     "titleZh": "波西米亚编织挂毯",
-    "category": "boho-macrame",
+    "category": "decor-textile",
     "description": "Handmade cotton macrame wall hanging with tassels and leaf pattern. Boho chic tapestry for living room, bedroom, nursery and Airbnb decor.",
     "tags": [
       "Cotton",
@@ -603,7 +603,7 @@
     "id": "p023",
     "title": "Macrame Butterfly Wall Art",
     "titleZh": "编织蝴蝶挂饰",
-    "category": "boho-macrame",
+    "category": "decor-textile",
     "description": "Delicate cream cotton macrame butterfly wall hanging — popular nursery and kids room decor. Lightweight, easy to ship, high perceived value.",
     "tags": [
       "Butterfly",
@@ -633,7 +633,7 @@
     "id": "p024",
     "title": "Large Macrame Wall Tapestry",
     "titleZh": "大型编织墙挂",
-    "category": "boho-macrame",
+    "category": "decor-textile",
     "description": "Oversized hand-woven boho macrame tapestry with cotton tassels. Statement piece for living rooms, boutiques, cafes and wedding backdrops.",
     "tags": [
       "Large",
@@ -657,6 +657,54 @@
     ],
     "images": [
       "assets/img/products/macrame-3.jpg"
+    ]
+  },
+  {
+    "id": "p025",
+    "title": "USB LED Night Light",
+    "titleZh": "USB LED小夜灯",
+    "category": "electronics-led",
+    "description": "Portable USB-powered LED night light with touch control. Perfect for bedside, camping and home decor. Custom logo and packaging available.",
+    "tags": [
+      "USB",
+      "LED",
+      "Touch Control"
+    ],
+    "price": ".50 - .00",
+    "moq": "200 pcs",
+    "oem": true,
+    "image": "assets/img/products/crystal-lamp-1.jpg",
+    "highlights": [
+      "USB powered",
+      "Touch dimmer",
+      "Custom logo"
+    ],
+    "images": [
+      "assets/img/products/crystal-lamp-1.jpg"
+    ]
+  },
+  {
+    "id": "p026",
+    "title": "Portable Power Bank 10000mAh",
+    "titleZh": "便携充电宝10000毫安",
+    "category": "electronics-usb",
+    "description": "Slim 10000mAh power bank with dual USB output. Perfect corporate gift and promotional item. Custom logo printing available.",
+    "tags": [
+      "10000mAh",
+      "Dual USB",
+      "Slim"
+    ],
+    "price": ".00 - .00",
+    "moq": "100 pcs",
+    "oem": true,
+    "image": "assets/img/products/crystal-lamp-1.jpg",
+    "highlights": [
+      "10000mAh capacity",
+      "Dual USB output",
+      "Custom branding"
+    ],
+    "images": [
+      "assets/img/products/crystal-lamp-1.jpg"
     ]
   }
 ]
