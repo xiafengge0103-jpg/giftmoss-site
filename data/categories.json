@@ -1,11 +1,79 @@
 [
-  { "id": "decor", "name": "Home Decor", "description": "Wooden tabletop decorations, ceramic ornaments and seasonal display items.", "tags": ["Wood", "Ceramic", "Painted"], "icon": "🏠" },
-  { "id": "resin", "name": "Resin Figurines", "description": "Custom animal, holiday and character resin figurines with hand-painted details.", "tags": ["OEM", "Hand Painted", "Custom Mold"], "icon": "🎨" },
-  { "id": "candle", "name": "Candle & Lamps", "description": "Ceramic candle holders, scented candle sets and crystal selenite lamps.", "tags": ["Ceramic", "Crystal", "USB Lamp"], "icon": "🕯️" },
-  { "id": "basket", "name": "Woven & Macrame", "description": "Natural seagrass baskets and handwoven macrame wall hangings.", "tags": ["Seagrass", "Cotton", "Boho"], "icon": "🧺" },
-  { "id": "packaging", "name": "Gift Packaging", "description": "Retail-ready gift boxes with custom logo, hangtag, barcode and premium display.", "tags": ["Private Label", "Logo", "Barcode"], "icon": "📦" },
-  { "id": "crystal", "name": "Crystal Decor", "description": "Natural selenite crystal lamps, healing stones and spiritual home decor.", "tags": ["Selenite", "USB", "Healing"], "icon": "💎" },
-  { "id": "tray", "name": "Resin Trays", "description": "Handmade epoxy resin serving trays, geode style and luxury decorative plates.", "tags": ["Epoxy", "Handmade", "Luxury"], "icon": "🪞" },
-  { "id": "flower", "name": "Dried Flowers", "description": "Boho pampas grass bouquets, dried flower arrangements and vase fillers.", "tags": ["Pampas", "Boho", "Natural"], "icon": "🌾" },
-  { "id": "mixed", "name": "Mixed Collections", "description": "Curated seasonal gift collections combining multiple categories.", "tags": ["Seasonal", "Retail", "Custom"], "icon": "🎁" }
+  {
+    "id": "decor",
+    "name": "Home Decor",
+    "description": "Wooden tabletop decorations, ceramic ornaments and seasonal display items.",
+    "tags": [
+      "Wood",
+      "Ceramic",
+      "Painted"
+    ],
+    "icon": "🏠"
+  },
+  {
+    "id": "resin",
+    "name": "Resin Figurines",
+    "description": "Custom animal, holiday and character resin figurines with hand-painted details.",
+    "tags": [
+      "OEM",
+      "Hand Painted",
+      "Custom Mold"
+    ],
+    "icon": "🎨"
+  },
+  {
+    "id": "candle",
+    "name": "Candle & Lamps",
+    "description": "Ceramic candle holders, scented candle sets and crystal selenite lamps.",
+    "tags": [
+      "Ceramic",
+      "Crystal",
+      "USB Lamp"
+    ],
+    "icon": "🕯️"
+  },
+  {
+    "id": "basket",
+    "name": "Woven & Macrame",
+    "description": "Natural seagrass baskets and handwoven macrame wall hangings.",
+    "tags": [
+      "Seagrass",
+      "Cotton",
+      "Boho"
+    ],
+    "icon": "🧺"
+  },
+  {
+    "id": "packaging",
+    "name": "Gift Packaging",
+    "description": "Retail-ready gift boxes with custom logo, hangtag, barcode and premium display.",
+    "tags": [
+      "Private Label",
+      "Logo",
+      "Barcode"
+    ],
+    "icon": "📦"
+  },
+  {
+    "id": "flower",
+    "name": "Dried Flowers",
+    "description": "Boho pampas grass bouquets, dried flower arrangements and vase fillers.",
+    "tags": [
+      "Pampas",
+      "Boho",
+      "Natural"
+    ],
+    "icon": "🌾"
+  },
+  {
+    "id": "mixed",
+    "name": "Mixed Collections",
+    "description": "Curated seasonal gift collections combining multiple categories.",
+    "tags": [
+      "Seasonal",
+      "Retail",
+      "Custom"
+    ],
+    "icon": "🎁"
+  }
 ]
