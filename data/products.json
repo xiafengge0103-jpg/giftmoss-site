@@ -1,1 +1,662 @@
-[]
+[
+  {
+    "id": "p001",
+    "title": "Custom Resin Animal Figurines",
+    "titleZh": "定制树脂动物摆件",
+    "category": "resin-animal",
+    "description": "Hand-painted resin animal figurines for seasonal gifts, home shelves and souvenir collections. Custom mold, color, size and logo available.",
+    "tags": [
+      "OEM",
+      "Hand Painted",
+      "Custom Mold"
+    ],
+    "price": "$0.80 - $5.00",
+    "moq": "200 pcs",
+    "oem": true,
+    "image": "assets/img/resin-figurine.svg",
+    "featured": true,
+    "highlights": [
+      "Fully customizable mold & color",
+      "Hand-painted details",
+      "Gift-ready packaging"
+    ],
+    "images": [
+      "assets/img/resin-figurine.svg"
+    ]
+  },
+  {
+    "id": "p002",
+    "title": "Wooden Tabletop Decor Set",
+    "titleZh": "木质桌面装饰套装",
+    "category": "decor-wood",
+    "description": "Warm wooden decoration items for farmhouse, Nordic and modern home styles. Available in pine, MDF, with laser engraving or painting.",
+    "tags": [
+      "Pine",
+      "MDF",
+      "Laser Logo"
+    ],
+    "price": "$1.50 - $8.00",
+    "moq": "150 pcs",
+    "oem": true,
+    "image": "assets/img/wood-decor.svg",
+    "featured": true,
+    "highlights": [
+      "Warm handmade style",
+      "Laser engraving available",
+      "Seasonal themes supported"
+    ],
+    "images": [
+      "assets/img/wood-decor.svg"
+    ]
+  },
+  {
+    "id": "p003",
+    "title": "Decorative Candle Holders",
+    "titleZh": "装饰蜡烛台",
+    "category": "crystal-candle",
+    "description": "Ceramic and metal candle holders for home fragrance brands, seasonal gift sets and room decor. Custom glaze color and gift box packaging.",
+    "tags": [
+      "Ceramic",
+      "Metal",
+      "Gift Box"
+    ],
+    "price": "$1.20 - $6.00",
+    "moq": "200 pcs",
+    "oem": true,
+    "image": "assets/img/candle-holder.svg",
+    "featured": true,
+    "highlights": [
+      "Premium ceramic/metal craft",
+      "Custom glaze & color",
+      "Gift box ready"
+    ],
+    "images": [
+      "assets/img/candle-holder.svg"
+    ]
+  },
+  {
+    "id": "p004",
+    "title": "Woven Storage Baskets",
+    "titleZh": "编织收纳篮",
+    "category": "boho-basket",
+    "description": "Natural seagrass, cotton rope and water hyacinth storage baskets for home organization, picnic, gift hamper and retail lifestyle display.",
+    "tags": [
+      "Seagrass",
+      "Cotton Rope",
+      "Eco-friendly"
+    ],
+    "price": "$2.00 - $12.00",
+    "moq": "100 pcs",
+    "oem": true,
+    "image": "assets/img/woven-basket.svg",
+    "featured": true,
+    "highlights": [
+      "Natural eco-friendly material",
+      "Handcrafted by artisans",
+      "Versatile home storage"
+    ],
+    "images": [
+      "assets/img/woven-basket.svg"
+    ]
+  },
+  {
+    "id": "p005",
+    "title": "Private Label Gift Boxes",
+    "titleZh": "自有品牌礼品盒",
+    "category": "packaging",
+    "description": "Retail-ready gift packaging with custom logo, insert card, hangtag and barcode. Suitable for holiday, promotional and e-commerce gift projects.",
+    "tags": [
+      "Logo",
+      "Hangtag",
+      "Barcode"
+    ],
+    "price": "$0.50 - $3.00",
+    "moq": "500 pcs",
+    "oem": true,
+    "image": "assets/img/gift-box.svg",
+    "featured": true,
+    "highlights": [
+      "Custom logo printing",
+      "Retail shelf ready",
+      "Barcode & hangtag included"
+    ],
+    "images": [
+      "assets/img/gift-box.svg"
+    ]
+  },
+  {
+    "id": "p006",
+    "title": "Ceramic Style Seasonal Decor",
+    "titleZh": "陶瓷风格季节装饰品",
+    "category": "decor-ceramic",
+    "description": "Warm handmade-style ceramic decorations for holiday, housewarming and souvenir retail buyers. Custom glaze colors, shapes and seasonal themes.",
+    "tags": [
+      "Ceramic",
+      "Glaze",
+      "Custom Color"
+    ],
+    "price": "$1.00 - $7.00",
+    "moq": "150 pcs",
+    "oem": true,
+    "image": "assets/img/hero-crafts.svg",
+    "featured": true,
+    "highlights": [
+      "Warm handmade style",
+      "Laser engraving available",
+      "Seasonal themes supported"
+    ],
+    "images": [
+      "assets/img/hero-crafts.svg"
+    ]
+  },
+  {
+    "id": "p007",
+    "title": "Resin Holiday Figurines",
+    "titleZh": "树脂节日摆件",
+    "category": "resin-holiday",
+    "description": "Christmas, Easter, Halloween and seasonal resin figurines with hand-painted details. Custom holiday themes, packaging and private label options.",
+    "tags": [
+      "Seasonal",
+      "Hand Painted",
+      "Gift Ready"
+    ],
+    "price": "$1.00 - $6.00",
+    "moq": "200 pcs",
+    "oem": true,
+    "image": "assets/img/resin-figurine.svg",
+    "featured": false,
+    "highlights": [
+      "Fully customizable mold & color",
+      "Hand-painted details",
+      "Gift-ready packaging"
+    ],
+    "images": [
+      "assets/img/resin-figurine.svg"
+    ]
+  },
+  {
+    "id": "p008",
+    "title": "Wooden Holiday Ornaments",
+    "titleZh": "木质节日装饰品",
+    "category": "decor-wood",
+    "description": "Laser-engraved and hand-painted wooden ornaments for Christmas trees, holiday gift tags and seasonal retail displays. Custom shape and design.",
+    "tags": [
+      "Laser Cut",
+      "Painted",
+      "Holiday"
+    ],
+    "price": "$0.60 - $3.00",
+    "moq": "300 pcs",
+    "oem": true,
+    "image": "assets/img/wood-decor.svg",
+    "featured": false,
+    "highlights": [
+      "Warm handmade style",
+      "Laser engraving available",
+      "Seasonal themes supported"
+    ],
+    "images": [
+      "assets/img/wood-decor.svg"
+    ]
+  },
+  {
+    "id": "p009",
+    "title": "Scented Candle Gift Sets",
+    "titleZh": "香薰蜡烛礼品套装",
+    "category": "crystal-candle",
+    "description": "Complete candle gift sets with ceramic holders, scented soy wax candles and gift box packaging. Custom fragrance, color and private label available.",
+    "tags": [
+      "Soy Wax",
+      "Gift Set",
+      "Private Label"
+    ],
+    "price": "$3.00 - $10.00",
+    "moq": "100 pcs",
+    "oem": true,
+    "image": "assets/img/candle-holder.svg",
+    "featured": false,
+    "highlights": [
+      "Premium ceramic/metal craft",
+      "Custom glaze & color",
+      "Gift box ready"
+    ],
+    "images": [
+      "assets/img/candle-holder.svg"
+    ]
+  },
+  {
+    "id": "p010",
+    "title": "Woven Picnic Basket Set",
+    "titleZh": "编织野餐篮套装",
+    "category": "boho-basket",
+    "description": "Seagrass and rattan picnic basket sets with lining, cutlery compartments and leather straps. Ideal for gift hamper, outdoor retail and lifestyle brands.",
+    "tags": [
+      "Rattan",
+      "Lining",
+      "Gift Hamper"
+    ],
+    "price": "$5.00 - $18.00",
+    "moq": "50 pcs",
+    "oem": true,
+    "image": "assets/img/woven-basket.svg",
+    "featured": false,
+    "highlights": [
+      "Natural eco-friendly material",
+      "Handcrafted by artisans",
+      "Versatile home storage"
+    ],
+    "images": [
+      "assets/img/woven-basket.svg"
+    ]
+  },
+  {
+    "id": "p011",
+    "title": "Custom Logo Display Packaging",
+    "titleZh": "定制Logo展示包装",
+    "category": "packaging",
+    "description": "Premium display packaging with custom logo, window cutout, magnetic closure and foam insert. Designed for retail shelf presentation.",
+    "tags": [
+      "Window Box",
+      "Magnetic",
+      "Premium"
+    ],
+    "price": "$1.50 - $5.00",
+    "moq": "300 pcs",
+    "oem": true,
+    "image": "assets/img/gift-box.svg",
+    "featured": false,
+    "highlights": [
+      "Custom logo printing",
+      "Retail shelf ready",
+      "Barcode & hangtag included"
+    ],
+    "images": [
+      "assets/img/gift-box.svg"
+    ]
+  },
+  {
+    "id": "p012",
+    "title": "Mixed Seasonal Gift Collection",
+    "titleZh": "混合季节礼品系列",
+    "category": "mixed",
+    "description": "Curated mixed collection combining resin figurines, wooden decor, candle holders and gift packaging in one seasonal order. Perfect for retail seasonal launches.",
+    "tags": [
+      "Mixed",
+      "Seasonal",
+      "Retail Ready"
+    ],
+    "price": "Custom Quote",
+    "moq": "Consultation",
+    "oem": true,
+    "image": "assets/img/hero-crafts.svg",
+    "featured": false,
+    "highlights": [
+      "OEM/ODM supported",
+      "Low MOQ",
+      "Global shipping"
+    ],
+    "images": [
+      "assets/img/hero-crafts.svg"
+    ]
+  },
+  {
+    "id": "p013",
+    "title": "Natural Selenite Crystal Lamp",
+    "titleZh": "天然月光石水晶灯",
+    "category": "crystal-lamp",
+    "description": "Hand-carved natural white selenite crystal tower lamp with LED base. USB powered, healing stone decor for spiritual shops, wellness stores and boho home decor.",
+    "tags": [
+      "Selenite",
+      "USB",
+      "LED Base"
+    ],
+    "price": "$5.00 - $30.00",
+    "moq": "50 pcs",
+    "oem": true,
+    "image": "assets/img/products/crystal-lamp-1.jpg",
+    "featured": false,
+    "supplier": {
+      "name": "Donghai Tuoxin Crystal Products Co., Ltd.",
+      "rating": "4.9",
+      "url": "https://www.alibaba.com/product-detail/Carved-Natural-White-Selenite-Crystal-Rock_62429119255.html"
+    },
+    "highlights": [
+      "Natural selenite crystal",
+      "USB-powered LED base",
+      "Healing & spiritual decor"
+    ],
+    "images": [
+      "assets/img/products/crystal-lamp-1.jpg"
+    ]
+  },
+  {
+    "id": "p014",
+    "title": "Wholesale Selenite Tower Lamp Set",
+    "titleZh": "天然水晶塔灯套装",
+    "category": "crystal-lamp",
+    "description": "High quality selenite tower lamps with wood base and touch control. Perfect for metaphysical stores, crystal shops and boho home decor retailers.",
+    "tags": [
+      "Tower",
+      "Touch Control",
+      "Wood Base"
+    ],
+    "price": "$10.00 - $20.00",
+    "moq": "10 pcs",
+    "oem": true,
+    "image": "assets/img/products/crystal-lamp-2.jpg",
+    "featured": false,
+    "supplier": {
+      "name": "Donghai Runyang Jewelry Co., Ltd.",
+      "rating": "4.7",
+      "url": "https://www.alibaba.com/product-detail/Wholesale-High-Quality-Selenite-Lamp-White_1600471894805.html"
+    },
+    "highlights": [
+      "Natural selenite crystal",
+      "USB-powered LED base",
+      "Healing & spiritual decor"
+    ],
+    "images": [
+      "assets/img/products/crystal-lamp-2.jpg"
+    ]
+  },
+  {
+    "id": "p015",
+    "title": "USB Crystal Night Light",
+    "titleZh": "USB水晶小夜灯",
+    "category": "crystal-lamp",
+    "description": "Natural crystal healing USB night light with selenite stick and LED base. Compact size, perfect for bedside, meditation space and spiritual gift shops.",
+    "tags": [
+      "USB",
+      "Night Light",
+      "Healing"
+    ],
+    "price": "$3.00 - $9.00",
+    "moq": "50 pcs",
+    "oem": true,
+    "image": "assets/img/products/crystal-lamp-3.jpg",
+    "featured": false,
+    "supplier": {
+      "name": "Donghai Shanhuiju Trading Co., Ltd.",
+      "rating": "4.8",
+      "url": "https://www.alibaba.com/product-detail/Crystal-Lamp-Wholesale-Natural-Luxury-Living_1600369472529.html"
+    },
+    "highlights": [
+      "Natural selenite crystal",
+      "USB-powered LED base",
+      "Healing & spiritual decor"
+    ],
+    "images": [
+      "assets/img/products/crystal-lamp-3.jpg"
+    ]
+  },
+  {
+    "id": "p016",
+    "title": "Handmade Epoxy Resin Serving Tray",
+    "titleZh": "手工环氧树脂托盘",
+    "category": "tray-epoxy",
+    "description": "Artistic modern epoxy resin platter with ocean/geode design. Handmade luxury serving tray for home decor stores, boutique hotels and wedding gift retailers.",
+    "tags": [
+      "Epoxy",
+      "Ocean Design",
+      "Gold Leaf"
+    ],
+    "price": "$7.00 - $20.00",
+    "moq": "10 pcs",
+    "oem": true,
+    "image": "assets/img/products/resin-tray-1.jpg",
+    "featured": false,
+    "supplier": {
+      "name": "N.S OVERSEAS",
+      "rating": "4.6",
+      "url": "https://www.alibaba.com/product-detail/Epoxy-Resin-Platter-Handmade-Resin-Tray_10000043859701.html"
+    },
+    "highlights": [
+      "Handmade epoxy resin",
+      "Luxury gold leaf accents",
+      "Multi-purpose use"
+    ],
+    "images": [
+      "assets/img/products/resin-tray-1.jpg"
+    ]
+  },
+  {
+    "id": "p017",
+    "title": "Luxury Epoxy Resin Tray with Brass Handles",
+    "titleZh": "黄铜手柄奢华树脂托盘",
+    "category": "tray-luxury",
+    "description": "High-end epoxy resin tray with brass handles and marble effect. Multi-purpose for vanity, coffee table, jewelry display and boutique hotel decor.",
+    "tags": [
+      "Brass Handle",
+      "Marble Effect",
+      "Luxury"
+    ],
+    "price": "$9.00 - $12.00",
+    "moq": "100 pcs",
+    "oem": true,
+    "image": "assets/img/products/resin-tray-2.jpg",
+    "featured": true,
+    "supplier": {
+      "name": "U.F INTERNATIONAL",
+      "rating": "5.0",
+      "url": "https://www.alibaba.com/product-detail/Luxury-Epoxy-Resin-Tray-Home-Living_10000032159265.html"
+    },
+    "highlights": [
+      "Handmade epoxy resin",
+      "Luxury gold leaf accents",
+      "Multi-purpose use"
+    ],
+    "images": [
+      "assets/img/products/resin-tray-2.jpg"
+    ]
+  },
+  {
+    "id": "p018",
+    "title": "Geode Style Decorative Resin Tray",
+    "titleZh": "水晶洞风格装饰树脂托盘",
+    "category": "tray-epoxy",
+    "description": "Handmade geode epoxy resin tray with gold leaf accents and crystal-inspired edges. Perfect for luxury gift shops, home decor boutiques and crystal stores.",
+    "tags": [
+      "Geode",
+      "Gold Leaf",
+      "Crystal Edge"
+    ],
+    "price": "$7.00 - $12.00",
+    "moq": "5 pcs",
+    "oem": true,
+    "image": "assets/img/products/resin-tray-3.jpg",
+    "featured": false,
+    "supplier": {
+      "name": "ARTIZON STUDIO",
+      "rating": "4.8",
+      "url": "https://www.alibaba.com/product-detail/Handmade-Resin-Tray-Geode-Epoxy-Home_10000042368377.html"
+    },
+    "highlights": [
+      "Handmade epoxy resin",
+      "Luxury gold leaf accents",
+      "Multi-purpose use"
+    ],
+    "images": [
+      "assets/img/products/resin-tray-3.jpg"
+    ]
+  },
+  {
+    "id": "p019",
+    "title": "Boho Pampas Grass Bouquet",
+    "titleZh": "波西米亚蒲苇草花束",
+    "category": "flower",
+    "description": "Natural dried pampas grass bouquet with bunny tails — boho chic home decor, wedding centerpiece and vase filler. Long-lasting, zero maintenance.",
+    "tags": [
+      "Pampas",
+      "Bunny Tail",
+      "Boho Chic"
+    ],
+    "price": "$2.50 - $4.00",
+    "moq": "50 bundles",
+    "oem": true,
+    "image": "assets/img/products/dried-flower-1.jpg",
+    "featured": true,
+    "supplier": {
+      "name": "Yunnan Hongyan Flower Technology Co., Ltd.",
+      "rating": "4.9",
+      "url": "https://www.alibaba.com/product-detail/Boho-Pampas-Grass-Natural-Dried-Flower_1601766755436.html"
+    },
+    "highlights": [
+      "100% natural dried flowers",
+      "Zero maintenance",
+      "Long-lasting boho decor"
+    ],
+    "images": [
+      "assets/img/products/dried-flower-1.jpg"
+    ]
+  },
+  {
+    "id": "p020",
+    "title": "Dried Flower Bouquet Mix",
+    "titleZh": "混合干花花束",
+    "category": "flower",
+    "description": "Forget-me-not, rose, cotton and reed dried flower bouquet for boho home decor, farmhouse style and wedding table arrangements. Custom color mix available.",
+    "tags": [
+      "Forget-Me-Not",
+      "Cotton",
+      "Farmhouse"
+    ],
+    "price": "$2.70 - $4.50",
+    "moq": "10 pcs",
+    "oem": true,
+    "image": "assets/img/products/dried-flower-2.jpg",
+    "featured": false,
+    "supplier": {
+      "name": "Shenzhen J-He Industrial Co., Limited",
+      "rating": "4.7",
+      "url": "https://www.alibaba.com/product-detail/Dried-Forget-Me-Not-Rose-Cotton_1601712303721.html"
+    },
+    "highlights": [
+      "100% natural dried flowers",
+      "Zero maintenance",
+      "Long-lasting boho decor"
+    ],
+    "images": [
+      "assets/img/products/dried-flower-2.jpg"
+    ]
+  },
+  {
+    "id": "p021",
+    "title": "Wholesale Mini Pampas Grass Bundles",
+    "titleZh": "小束蒲苇草批发",
+    "category": "flower",
+    "description": "Small plume dry pampas grass bundles for budget-friendly boho decor, event styling and DIY craft retailers. Bulk wholesale pricing with custom packaging.",
+    "tags": [
+      "Mini",
+      "Bulk",
+      "Event Decor"
+    ],
+    "price": "$0.30 - $0.80",
+    "moq": "100 pcs",
+    "oem": true,
+    "image": "assets/img/products/dried-flower-3.jpg",
+    "featured": false,
+    "supplier": {
+      "name": "Qingdao Golden Handicrafts Co., LTD.",
+      "rating": "4.8",
+      "url": "https://www.alibaba.com/product-detail/QSLH-562-Wholesale-Boho-Small-Plume_1600971385914.html"
+    },
+    "highlights": [
+      "100% natural dried flowers",
+      "Zero maintenance",
+      "Long-lasting boho decor"
+    ],
+    "images": [
+      "assets/img/products/dried-flower-3.jpg"
+    ]
+  },
+  {
+    "id": "p022",
+    "title": "Boho Macrame Wall Hanging",
+    "titleZh": "波西米亚编织挂毯",
+    "category": "boho-macrame",
+    "description": "Handmade cotton macrame wall hanging with tassels and leaf pattern. Boho chic tapestry for living room, bedroom, nursery and Airbnb decor.",
+    "tags": [
+      "Cotton",
+      "Tassel",
+      "Boho"
+    ],
+    "price": "$3.00 - $5.00",
+    "moq": "10 pcs",
+    "oem": true,
+    "image": "assets/img/products/macrame-1.jpg",
+    "featured": true,
+    "supplier": {
+      "name": "Yiwu Vshare Jewelry Co., Ltd.",
+      "rating": "4.5",
+      "url": "https://www.alibaba.com/product-detail/Boho-Handmade-Macrame-Wall-Hanging-Woven_1601225782739.html"
+    },
+    "highlights": [
+      "Handwoven 100% cotton",
+      "Boho chic design",
+      "Lightweight easy shipping"
+    ],
+    "images": [
+      "assets/img/products/macrame-1.jpg"
+    ]
+  },
+  {
+    "id": "p023",
+    "title": "Macrame Butterfly Wall Art",
+    "titleZh": "编织蝴蝶挂饰",
+    "category": "boho-macrame",
+    "description": "Delicate cream cotton macrame butterfly wall hanging — popular nursery and kids room decor. Lightweight, easy to ship, high perceived value.",
+    "tags": [
+      "Butterfly",
+      "Cream",
+      "Nursery"
+    ],
+    "price": "$3.50 - $4.00",
+    "moq": "20 pcs",
+    "oem": true,
+    "image": "assets/img/products/macrame-2.jpg",
+    "featured": false,
+    "supplier": {
+      "name": "Huai'an Suxincheng International Trade Co., Ltd.",
+      "rating": "4.8",
+      "url": "https://www.alibaba.com/product-detail/Macrame-Butterfly-Wall-Hanging-Boho-Home_1601550588433.html"
+    },
+    "highlights": [
+      "Handwoven 100% cotton",
+      "Boho chic design",
+      "Lightweight easy shipping"
+    ],
+    "images": [
+      "assets/img/products/macrame-2.jpg"
+    ]
+  },
+  {
+    "id": "p024",
+    "title": "Large Macrame Wall Tapestry",
+    "titleZh": "大型编织墙挂",
+    "category": "boho-macrame",
+    "description": "Oversized hand-woven boho macrame tapestry with cotton tassels. Statement piece for living rooms, boutiques, cafes and wedding backdrops.",
+    "tags": [
+      "Large",
+      "Cotton",
+      "Statement"
+    ],
+    "price": "$10.00 - $15.00",
+    "moq": "10 pcs",
+    "oem": true,
+    "image": "assets/img/products/macrame-3.jpg",
+    "featured": false,
+    "supplier": {
+      "name": "Qingdao Beaufy Arts And Crafts Co., Ltd.",
+      "rating": "4.6",
+      "url": "https://www.alibaba.com/product-detail/Large-Macrame-Wall-Hanging-Boho-Tapestry_1600626276918.html"
+    },
+    "highlights": [
+      "Handwoven 100% cotton",
+      "Boho chic design",
+      "Lightweight easy shipping"
+    ],
+    "images": [
+      "assets/img/products/macrame-3.jpg"
+    ]
+  }
+]
