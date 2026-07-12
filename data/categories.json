@@ -35,32 +35,6 @@
     "image": "assets/img/products/resin-figurine-real.jpg"
   },
   {
-    "id": "resin-animal",
-    "name": "  ↳ Animal Figurines",
-    "icon": "🐱",
-    "parent": "resin",
-    "description": "Custom animal and mascot resin figurines for gift shops",
-    "tags": [
-      "Animal",
-      "Mascot",
-      "Custom Mold"
-    ],
-    "image": "assets/img/products/resin-figurine-real.jpg"
-  },
-  {
-    "id": "resin-holiday",
-    "name": "  ↳ Holiday Figurines",
-    "icon": "🎄",
-    "parent": "resin",
-    "description": "Seasonal and holiday themed resin decorations",
-    "tags": [
-      "Holiday",
-      "Seasonal",
-      "Gift Ready"
-    ],
-    "image": "assets/img/products/resin-figurine-real.jpg"
-  },
-  {
     "id": "decor",
     "name": "Home Decor",
     "icon": "🏠",
@@ -74,32 +48,6 @@
     "image": "assets/img/products/wood-decor-real.jpg"
   },
   {
-    "id": "decor-wood",
-    "name": "  ↳ Wooden Decor",
-    "icon": "🪵",
-    "parent": "decor",
-    "description": "Laser engraved and hand-painted wooden home decorations",
-    "tags": [
-      "Wood",
-      "Pine",
-      "Laser Engrave"
-    ],
-    "image": "assets/img/products/wood-decor-real.jpg"
-  },
-  {
-    "id": "decor-ceramic",
-    "name": "  ↳ Ceramic Decor",
-    "icon": "🏺",
-    "parent": "decor",
-    "description": "Glazed ceramic seasonal decorations for home and gift shops",
-    "tags": [
-      "Ceramic",
-      "Glaze",
-      "Seasonal"
-    ],
-    "image": "assets/img/products/candle-holder-real.jpg"
-  },
-  {
     "id": "crystal",
     "name": "Crystal & Lamps",
     "icon": "💎",
@@ -111,123 +59,6 @@
       "USB"
     ],
     "image": "assets/img/products/crystal-lamp-1.jpg"
-  },
-  {
-    "id": "crystal-lamp",
-    "name": "  ↳ Selenite Lamps",
-    "icon": "💡",
-    "parent": "crystal",
-    "description": "USB-powered selenite crystal lamps and tower lights",
-    "tags": [
-      "Selenite",
-      "USB",
-      "Healing"
-    ],
-    "image": "assets/img/products/crystal-lamp-1.jpg"
-  },
-  {
-    "id": "crystal-candle",
-    "name": "  ↳ Candle Holders",
-    "icon": "🕯️",
-    "parent": "crystal",
-    "description": "Ceramic and metal candle holders for home fragrance brands",
-    "tags": [
-      "Ceramic",
-      "Metal",
-      "Gift Box"
-    ],
-    "image": "assets/img/products/candle-holder-real.jpg"
-  },
-  {
-    "id": "boho",
-    "name": "Boho & Textile",
-    "icon": "🧵",
-    "parent": null,
-    "description": "Macrame wall hangings, woven baskets and boho home textiles",
-    "tags": [
-      "Boho",
-      "Cotton",
-      "Handwoven"
-    ],
-    "image": "assets/img/products/macrame-3.jpg"
-  },
-  {
-    "id": "boho-macrame",
-    "name": "  ↳ Macrame Wall Art",
-    "icon": "🧶",
-    "parent": "boho",
-    "description": "Handwoven cotton macrame tapestries and wall hangings",
-    "tags": [
-      "Macrame",
-      "Cotton",
-      "Wall Decor"
-    ],
-    "image": "assets/img/products/macrame-1.jpg"
-  },
-  {
-    "id": "boho-basket",
-    "name": "  ↳ Woven Baskets",
-    "icon": "🧺",
-    "parent": "boho",
-    "description": "Seagrass, rattan and cotton rope storage baskets",
-    "tags": [
-      "Seagrass",
-      "Rattan",
-      "Eco"
-    ],
-    "image": "assets/img/products/woven-basket-real.jpg"
-  },
-  {
-    "id": "tray",
-    "name": "Resin Trays & Serveware",
-    "icon": "🪞",
-    "parent": null,
-    "description": "Handmade epoxy resin trays, geode style and luxury decorative plates",
-    "tags": [
-      "Epoxy",
-      "Handmade",
-      "Luxury"
-    ],
-    "image": "assets/img/products/resin-tray-1.jpg"
-  },
-  {
-    "id": "tray-epoxy",
-    "name": "  ↳ Epoxy Resin Trays",
-    "icon": "🎭",
-    "parent": "tray",
-    "description": "Ocean and geode style handmade epoxy resin serving trays",
-    "tags": [
-      "Epoxy",
-      "Geode",
-      "Gold Leaf"
-    ],
-    "image": "assets/img/products/resin-tray-1.jpg"
-  },
-  {
-    "id": "tray-luxury",
-    "name": "  ↳ Luxury Trays",
-    "icon": "✨",
-    "parent": "tray",
-    "description": "Brass handle and marble effect luxury decorative trays",
-    "tags": [
-      "Brass",
-      "Marble",
-      "Premium"
-    ],
-    "image": "assets/img/products/resin-tray-3.jpg"
-  },
-  {
-    "id": "flower",
-    "name": "Dried Flowers",
-    "icon": "🌾",
-    "parent": null,
-    "description": "Boho pampas grass bouquets, dried flower arrangements and vase fillers",
-    "tags": [
-      "Pampas",
-      "Boho",
-      "Natural"
-    ],
-    "image": "assets/img/products/dried-flower-1.jpg"
   },
   {
     "id": "packaging",
