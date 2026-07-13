@@ -300,96 +300,6 @@
     ]
   },
   {
-    "id": "p013",
-    "title": "Natural Selenite Crystal Lamp",
-    "titleZh": "天然月光石水晶灯",
-    "category": "crystal-lamp",
-    "description": "Hand-carved natural white selenite crystal tower lamp with LED base. USB powered, healing stone decor for spiritual shops, wellness stores and boho home decor.",
-    "tags": [
-      "Selenite",
-      "USB",
-      "LED Base"
-    ],
-    "price": "$5.00 - $30.00",
-    "moq": "50 pcs",
-    "oem": true,
-    "image": "assets/img/products/crystal-lamp-1.jpg",
-    "featured": false,
-    "supplier": {
-      "name": "Donghai Tuoxin Crystal Products Co., Ltd.",
-      "rating": "4.9",
-      "url": "https://www.alibaba.com/product-detail/Carved-Natural-White-Selenite-Crystal-Rock_62429119255.html"
-    },
-    "highlights": [
-      "Natural selenite crystal",
-      "USB-powered LED base",
-      "Healing & spiritual decor"
-    ],
-    "images": [
-      "assets/img/products/crystal-lamp-1.jpg"
-    ]
-  },
-  {
-    "id": "p014",
-    "title": "Wholesale Selenite Tower Lamp Set",
-    "titleZh": "天然水晶塔灯套装",
-    "category": "crystal-lamp",
-    "description": "High quality selenite tower lamps with wood base and touch control. Perfect for metaphysical stores, crystal shops and boho home decor retailers.",
-    "tags": [
-      "Tower",
-      "Touch Control",
-      "Wood Base"
-    ],
-    "price": "$10.00 - $20.00",
-    "moq": "10 pcs",
-    "oem": true,
-    "image": "assets/img/products/crystal-lamp-2.jpg",
-    "featured": false,
-    "supplier": {
-      "name": "Donghai Runyang Jewelry Co., Ltd.",
-      "rating": "4.7",
-      "url": "https://www.alibaba.com/product-detail/Wholesale-High-Quality-Selenite-Lamp-White_1600471894805.html"
-    },
-    "highlights": [
-      "Natural selenite crystal",
-      "USB-powered LED base",
-      "Healing & spiritual decor"
-    ],
-    "images": [
-      "assets/img/products/crystal-lamp-2.jpg"
-    ]
-  },
-  {
-    "id": "p015",
-    "title": "USB Crystal Night Light",
-    "titleZh": "USB水晶小夜灯",
-    "category": "crystal-lamp",
-    "description": "Natural crystal healing USB night light with selenite stick and LED base. Compact size, perfect for bedside, meditation space and spiritual gift shops.",
-    "tags": [
-      "USB",
-      "Night Light",
-      "Healing"
-    ],
-    "price": "$3.00 - $9.00",
-    "moq": "50 pcs",
-    "oem": true,
-    "image": "assets/img/products/crystal-lamp-3.jpg",
-    "featured": false,
-    "supplier": {
-      "name": "Donghai Shanhuiju Trading Co., Ltd.",
-      "rating": "4.8",
-      "url": "https://www.alibaba.com/product-detail/Crystal-Lamp-Wholesale-Natural-Luxury-Living_1600369472529.html"
-    },
-    "highlights": [
-      "Natural selenite crystal",
-      "USB-powered LED base",
-      "Healing & spiritual decor"
-    ],
-    "images": [
-      "assets/img/products/crystal-lamp-3.jpg"
-    ]
-  },
-  {
     "id": "p016",
     "title": "Handmade Epoxy Resin Serving Tray",
     "titleZh": "手工环氧树脂托盘",
@@ -706,5 +616,102 @@
     "images": [
       "assets/img/products/crystal-lamp-1.jpg"
     ]
+  },
+  {
+    "id": "p013",
+    "title": "USB Rechargeable Dimmable Tap Light",
+    "titleZh": "USB充电调光拍拍灯",
+    "category": "tap-light",
+    "description": "Touch-activated LED tap light with 3-level dimming. USB rechargeable, stick-on adhesive backing, perfect for closets, cabinets, stairways and kids rooms. Compact design, ultra-lightweight for low shipping costs.",
+    "tags": [
+      "USB Rechargeable",
+      "Dimmable",
+      "Stick-on",
+      "Kid-Friendly"
+    ],
+    "price": "$1.50 - $3.50",
+    "moq": "50 pcs",
+    "oem": true,
+    "image": "assets/img/products/tap-light-1.jpg",
+    "featured": true,
+    "highlights": [
+      "USB rechargeable, no battery waste",
+      "3-level touch dimming",
+      "Self-adhesive, no tools needed",
+      "Ultra-light, low shipping cost"
+    ],
+    "images": [
+      "assets/img/products/tap-light-1.jpg"
+    ],
+    "supplier": {
+      "name": "Shenzhen Eano Tech",
+      "rating": "5.0",
+      "url": "https://www.alibaba.com/product-detail/Rechargeable-Tap-Lights-Dimmable-Touch-LED_1600844712857.html"
+    }
+  },
+  {
+    "id": "p014",
+    "title": "Magnetic Motion Sensor Puck Light",
+    "titleZh": "磁吸人体感应小夜灯",
+    "category": "tap-light",
+    "description": "USB rechargeable magnetic puck light with motion sensor. Auto-on when motion detected, auto-off after 20 seconds. 360-degree magnetic ball joint, stick-on metal plate included. Ideal for under-cabinet, wardrobe, hallway and staircase lighting.",
+    "tags": [
+      "Motion Sensor",
+      "Magnetic",
+      "USB Rechargeable",
+      "Smart"
+    ],
+    "price": "$2.00 - $4.50",
+    "moq": "50 pcs",
+    "oem": true,
+    "image": "assets/img/products/tap-light-2.jpg",
+    "featured": true,
+    "highlights": [
+      "PIR motion sensor, hands-free",
+      "Magnetic ball joint, 360° adjustable",
+      "USB-C rechargeable, long battery life",
+      "Slim 10mm profile, discreet mount"
+    ],
+    "images": [
+      "assets/img/products/tap-light-2.jpg"
+    ],
+    "supplier": {
+      "name": "Ningbo Everstar Lighting",
+      "rating": "5.0",
+      "url": "https://www.alibaba.com/product-detail/USB-Rechargeable-Magnetic-Wall-Motion-Sensor_1601097640761.html"
+    }
+  },
+  {
+    "id": "p015",
+    "title": "RGB Remote Control Puck Light 3-Pack",
+    "titleZh": "RGB遥控磁吸灯 3件套",
+    "category": "tap-light",
+    "description": "3-pack rechargeable RGB puck lights with remote control. 16 colors, 4 lighting modes, magnetic mount. Perfect for under-cabinet, shelf display, TV backlight and party decor. Hot seller on Amazon and cross-border platforms.",
+    "tags": [
+      "RGB",
+      "Remote Control",
+      "3-Pack",
+      "Magnetic",
+      "Trending"
+    ],
+    "price": "$5.00 - $9.00",
+    "moq": "10 sets",
+    "oem": true,
+    "image": "assets/img/products/tap-light-3.jpg",
+    "featured": true,
+    "highlights": [
+      "16 RGB colors + 4 modes",
+      "Remote control, easy operation",
+      "3-pack value set, high demand",
+      "Magnetic mount, instant installation"
+    ],
+    "images": [
+      "assets/img/products/tap-light-3.jpg"
+    ],
+    "supplier": {
+      "name": "Shenzhen Heng Chong Zhichuang",
+      "rating": "4.7",
+      "url": "https://www.alibaba.com/product-detail/3-Pack-Rechargeable-Puck-Lights-with_1601375350973.html"
+    }
   }
 ]

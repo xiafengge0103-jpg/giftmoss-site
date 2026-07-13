@@ -48,17 +48,18 @@
     "image": "assets/img/products/wood-decor-real.jpg"
   },
   {
-    "id": "crystal",
-    "name": "Crystal & Lamps",
-    "icon": "💎",
+    "id": "tap-lighting",
+    "name": "Tap Lights & Lighting",
+    "icon": "💡",
     "parent": null,
-    "description": "Selenite crystal lamps, candle holders and LED night lights",
+    "description": "Wireless rechargeable tap lights, magnetic puck lights and LED night lights — trending in cross-border e-commerce",
     "tags": [
-      "Crystal",
-      "Selenite",
-      "USB"
+      "Rechargeable",
+      "Magnetic",
+      "USB",
+      "Trending"
     ],
-    "image": "assets/img/products/crystal-lamp-1.jpg"
+    "image": "assets/img/products/tap-light-3.jpg"
   },
   {
     "id": "packaging",
